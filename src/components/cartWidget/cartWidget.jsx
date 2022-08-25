@@ -3,7 +3,7 @@ import CartIcon from '../icons/cartIcon'
 
 const CartWidget = ({itemCount}) => {
   return (
-    <div>
+    <div className='flex '>
         <CartIcon /> {itemCount}
     </div>
   )
